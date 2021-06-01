@@ -1,0 +1,21 @@
+.footer-inner {
+    background-color: #EC3237;
+    color: white;
+    padding: 25px 0px 40px 0px;
+    margin: 10px 10px;
+}
+.footer-content{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-content .sec{
+    display: flex;
+    margin-right: 15px;
+}
+
+.footer i {
+    font-size: 25px;
+    margin-right: 10px;
+}

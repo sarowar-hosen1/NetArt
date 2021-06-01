@@ -1,0 +1,41 @@
+.home {
+  display: flex;
+}
+.logo img {
+  width: 50%;
+}
+
+
+.award-content {
+  padding: 10px 20px;
+}
+.award-content h6 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.award-content ul li {
+  font-weight: 500;
+  font-size: 14px;
+}
+.award-content p {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .award-image img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    order: 2;
+  }
+  .logo img {
+    width: 50%;
+    order: 1;
+  }
+}

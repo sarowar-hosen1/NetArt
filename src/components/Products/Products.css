@@ -1,0 +1,33 @@
+.products{
+    padding: 0px 20px;
+}
+.products .title{
+    font-weight: 700;
+    font-size: 15px;
+}
+.products img{
+    padding: 20px 120px;
+}
+.products p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+.products p span{
+    color: #EC3237;
+    font-weight: bold;
+}
+.products h6{
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.products hr{
+    border-top: 3px solid #EC3237;
+}
+
+@media (max-width: 768px){
+    .products img{
+        padding:20px;
+    }
+}
